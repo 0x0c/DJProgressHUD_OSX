@@ -10,7 +10,7 @@ Please let me know if you find this helpfull!
 ![Screenshot](http://www.danj.co/static/images/DJProgressHUD.png)
 
 
-##Installation
+## Installation
 
 **If you use CocoaPods, the feel free to add the following to your podfile:**
 
@@ -28,12 +28,12 @@ pod 'DJProgressHUD_OSX'
   3. Import the control you want to use
   4. Refer to the samples below for possible display options
 
-##Whats included: 
+## Whats included: 
   - DJProgressHUD: A class to show a popup view to the user displaying the current progress or an activity indicator.
   - DJActivityIndicator: A customizable activity indicator. The mac's version, NSProgressIndicator, just doesn't cut it.
   - DJProgressIndicator: A customizable circular progress view. Change the thickness, radius, size and color. I couldnt find one for the mac. So again, I made one.
 
-##Code Sample
+## Code Sample
 
 Simple Progress - uses progress indicator
 
