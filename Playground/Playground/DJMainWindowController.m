@@ -106,7 +106,6 @@ NSTimer* timer;
 - (IBAction)activityPopup:(id)sender
 {
     [DJProgressHUD showStatus:@"INDICATOR" FromView:self.view];
-    
     [timer invalidate];
     timer = nil;
     

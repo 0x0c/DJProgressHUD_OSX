@@ -71,6 +71,11 @@ typedef void (^CompletionHander)(void);
     [[self instance] popActivity];
 }
 
++ (void)activityIndicatiorEnabled:(BOOL)enabled
+{
+	[[self instance] activityIndicatiorEnabled:!enabled];
+}
+
 #pragma mark -
 #pragma mark Master Methods
 
@@ -250,6 +255,11 @@ typedef void (^CompletionHander)(void);
     _activityCount--;
     if(_activityCount == 0)
         [self hideViewAnimated];
+}
+
+- (void)activityIndicatiorEnabled:(BOOL)enabled
+{
+	activityIndicator.hidden = enabled;
 }
 
 #pragma mark -

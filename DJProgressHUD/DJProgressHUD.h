@@ -30,6 +30,7 @@
 + (void)showProgress:(CGFloat)progress withStatus:(NSString*)status FromView:(NSView*)view;
 
 + (void)dismiss;
++ (void)activityIndicatiorEnabled:(BOOL)enabled;
 
 //+ (void)popActivity;
 @property (nonatomic) BOOL keepActivityCount;
